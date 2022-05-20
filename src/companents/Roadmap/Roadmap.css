@@ -1,0 +1,71 @@
+.title {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 4rem;
+  }
+  
+.Roadmap{
+ margin-top: 2rem;
+}
+
+  h3 {
+    padding-top: 1em;
+  }
+  
+.vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 0.5em 3em !important;
+  }
+  .vertical-timeline-element-title{
+      color: #D9534F;
+  }
+
+  
+.date {
+    color: #D9534F;
+  }
+  
+  #description {
+    margin: 1em 0 1em 0;
+    color: #000;
+  }
+  
+  .button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .workButton {
+    background-color: #D9534F;
+  }
+  
+  .workButton:hover {
+    background-color: #D9534F;
+  }
+  
+  .schoolButton {
+    background-color: #D9534F;
+  }
+  
+  .schoolButton:hover {
+    background-color: #D9534F;
+  }
+  
+  @media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      color: #fff;
+      margin-top: 1.5em;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+		.Roadmap{
+      margin-top: 0.1rem;
+    }
+	}

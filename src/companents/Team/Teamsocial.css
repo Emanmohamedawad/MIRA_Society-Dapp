@@ -1,0 +1,22 @@
+.team__social{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.team__social a{
+    background: #fff;
+    color: #F55353;
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+    display: flex;
+    border: 2px solid #fff;
+}
+.arrows :hover{
+    color: #fff;
+}
+.team__social a:hover{
+    background: #F55353; 
+    color: #fff;
+    border-color: var(--color-white);
+}

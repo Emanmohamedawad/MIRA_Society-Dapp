@@ -1,0 +1,118 @@
+header{
+    height: 100vh;
+    padding-top: 0.5rem;
+    overflow: hidden;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ========================CTA======================== */
+
+.cta{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+.cta h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cta a{
+    /* height: 70px; */
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* ========================SOCIALS======================== */
+.header__social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+.header__social a{
+    font-size: 25px;
+    /* color: var(--color-primary); */
+    color: #fff; 
+ 
+}
+.header__social a :hover{
+    color: rgb(77, 135, 243);
+}
+
+.header__social::after{
+    content: "";
+    width: 2px;
+    height: 3rem;
+    /* background: #D36485; */
+    /* background: #F55353; */
+    background: #fc5e5e;
+}
+
+/* ========================Me======================== */
+
+.me{
+    /* background: linear-gradient(var(--color-primary), transparent); */
+    background: linear-gradient(#D9534F, transparent);
+    width: 20rem;
+    height: 20rem;
+    margin-left: 1rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 1rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    /* padding: 1rem 0.5rem 0.5rem 0.5rem; */
+}
+ .me img{
+    width: 320px;
+    margin-left: 0.09rem;
+    /* padding: 20px; */
+} 
+
+/* ========================SCROLL DOWN======================== */
+
+/* .scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+} */
+
+/* ============================media query (md)===================== */
+@media screen and (max-width: 1024px) {
+        header{
+            height: 70vh;
+        }
+}
+/* ============================media query (sm)===================== */
+@media screen and (max-width: 600px) {
+    header{
+        height: 90vh;
+    }
+    .me {
+        width: 20rem;
+        margin-left: 3rem;
+       
+    }
+    .header__social{
+        margin-bottom: 2rem;
+    }
+
+
+    /* .scroll__down
+    {
+        display: none;
+    } */
+}
