@@ -46,8 +46,8 @@ const CTA= () => {
   return(
 
       <div>
-//             <label >Please select the amount of NFTs to mint.</label>
-	   <label> Public Mint Soon. </label>
+	  <label >Please select the amount of NFTs to mint.Testmmm</label>
+	   
       <div className='cta'>   
 	<a href='/#' onClick={connectwallet} className='btn'>Connect Wallet</a>
       
