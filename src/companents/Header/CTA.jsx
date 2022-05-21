@@ -46,17 +46,18 @@ const CTA= () => {
   return(
 
       <div>
-            <label >Please select the amount of NFTs to mint.</label>
+//             <label >Please select the amount of NFTs to mint.</label>
+	   <label >Public Mint Soon.</label>
       <div className='cta'>   
-	<a href='/#' onClick={connectwallet} className='btn'>Connect Wallet</a>
+// 	<a href='/#' onClick={connectwallet} className='btn'>Connect Wallet</a>
       
       
-      <input type="number" name="amount" defaultValue="1" min="1" max="10" style={{height : '22px' , marginTop:"20px",color: '#D9534F',padding:'5px'}}/> 
-      <a href='/#'  onClick={mint}  className=' btn btn-primary'>Mint</a>
-      <p>Mint price: 0.025eth</p> 
+//       <input type="number" name="amount" defaultValue="1" min="1" max="10" style={{height : '22px' , marginTop:"20px",color: '#D9534F',padding:'5px'}}/> 
+//       <a href='/#'  onClick={mint}  className=' btn btn-primary'>Mint</a>
+//       <p>Mint price: 0.025eth</p> 
       </div>
       <div className='cta'>
-		   <h5 id='wallet-address'> Your Address</h5> 
+// 		   <h5 id='wallet-address'> Your Address</h5> 
          {/* <h5 id='wallet-address'> Your Address: {defaultAccount}</h5> */}
       </div>
 
