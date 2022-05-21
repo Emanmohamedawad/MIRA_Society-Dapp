@@ -23,18 +23,18 @@ async function connectwallet() {
       document.getElementById('wallet-address').textContent = account; 
       }
 }
- async function mint() {
-      if (window.ethereum) { 
+//  async function mint() {
+//       if (window.ethereum) { 
 
             
-        var _mintAmount = Number(document.querySelector("[name=amount]").value); 
-        var mintRate = Number(await contract.methods.publicCost().call()); 
-        var totalAmount = mintRate * _mintAmount; 
-        console.log(contract)
-       contract.methods.mint(_mintAmount).send({ from: account, value: String(totalAmount) });
+//         var _mintAmount = Number(document.querySelector("[name=amount]").value); 
+//         var mintRate = Number(await contract.methods.publicCost().call()); 
+//         var totalAmount = mintRate * _mintAmount; 
+//         console.log(contract)
+//        contract.methods.mint(_mintAmount).send({ from: account, value: String(totalAmount) });
     
-      }
-      }
+//       }
+//       }
      
 
 // ===============================================
@@ -46,14 +46,15 @@ const CTA= () => {
   return(
 
       <div>
-	  <label >Please select the amount of NFTs to mint.Testmmm</label>
+// 	  <label >Please select the amount of NFTs to mint.</label>
 	   
       <div className='cta'>   
+	  <label >Public Mint Soon.</label>
 	<a href='/#' onClick={connectwallet} className='btn'>Connect Wallet</a>
       
       
-      <input type="number" name="amount" defaultValue="1" min="1" max="10" style={{height : '22px' , marginTop:"20px",color: '#D9534F',padding:'5px'}}/> 
-      <a href='/#'  onClick={mint}  className=' btn btn-primary'>Mint</a>
+//       <input type="number" name="amount" defaultValue="1" min="1" max="10" style={{height : '22px' , marginTop:"20px",color: '#D9534F',padding:'5px'}}/> 
+//       <a href='/#'  onClick={mint}  className=' btn btn-primary'>Mint</a>
       <p>Mint price: 0.025eth</p> 
       </div>
       <div className='cta'>
