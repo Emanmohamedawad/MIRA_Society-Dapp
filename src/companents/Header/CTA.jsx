@@ -46,7 +46,7 @@ const CTA= () => {
   return(
 
       <div>
-	  <label >Please select the amount of NFTs to mint.</label>
+	  <label >Please select the amount of NFTs to Mint. </label>
 	   
       <div className='cta'>   
 // 	  <label >Public Mint Soon.</label>
