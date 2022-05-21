@@ -171,7 +171,7 @@ export const Data = [
 	{
 		title: 'Mohamed Al Anzey',
 		description: 'Investor',
-		image: './assets2/Mohamed Al Anzey.jpg',
+		image: './assets2/محمد العنزى.jpg',
 		twitter:'https://twitter.com/ele_3ksa?s=20&t=gmR7svREjZJ8-xgktCZpog',
 		instagram:'',
 		linktree: '',
