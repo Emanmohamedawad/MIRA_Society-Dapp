@@ -15,14 +15,14 @@ contract = new web3.eth.Contract(ABI, ADDRESS);
 
 
 
- async function connectwallet() { 
+  async function connectwallet() { 
       if (window.ethereum) { 
       await window.ethereum.send('eth_requestAccounts'); 
       var accounts = await web3.eth.getAccounts(); 
       account = accounts[0]; 
       document.getElementById('wallet-address').textContent = account; 
       }
-}
+} 
  async function mint() {
       if (window.ethereum) { 
 
@@ -50,7 +50,7 @@ const CTA= () => {
 	   
       <div className='cta'>   
 	  <label >Public Mint Soon.</label>
-       <a href='/#' onClick={connectwallet} className='btn'>Connect Wallet</a>
+       {/* <a href='/#' onClick={connectwallet} className='btn'>Connect Wallet</a> */}
      {/* <input type="number" name="amount" defaultValue="1" min="1" max="10" style={{height : '22px' , marginTop:"20px",color: '#D9534F',padding:'5px'}}/> */}
       <a href='/#'  onClick={mint}  className=' btn btn-primary'>Mint</a> 
        {/* <p>Mint price: 0.025eth</p>  */}
