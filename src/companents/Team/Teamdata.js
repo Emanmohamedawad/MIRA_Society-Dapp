@@ -24,6 +24,14 @@ export const Data = [
 		instagram:'https://www.instagram.com/lamia_jarrah/',
 		linktree: '',
 	},
+		{
+		title: 'OSCAR',
+		description: 'Discord Manger',
+		image: './assets2/oscar.jpg',
+		twitter:'https://twitter.com/0xoscar',
+		instagram:'',
+		linktree: '',
+	},
 	{
 		title: 'Eman',
 		description: 'Website Developer',
