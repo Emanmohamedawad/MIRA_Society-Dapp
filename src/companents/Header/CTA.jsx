@@ -58,7 +58,7 @@ const CTA= () => {
         {/*<p>Mint price: 0.025eth</p>   */}
       </div>
       <div className='cta'> 
-		  {/*  <h5 id='wallet-address'> Your Address</h5> */}
+		   <h5 id='wallet-address'> Your Address</h5> 
           {/*<h5 id='wallet-address'> Your Address: {defaultAccount}</h5> */}
 
       </div>
