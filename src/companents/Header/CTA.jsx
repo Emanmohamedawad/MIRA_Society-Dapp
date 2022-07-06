@@ -47,7 +47,7 @@ const CTA= () => {
 
       <div>
 
-       <h2 >Public Mint Soon.</h2>
+       <h3>Public Mint Soon</h3>
       <div className='cta'>   
 	 
            {/* <a href='/#' onClick={connectwallet} className='btn'>Connect Wallet</a>  */}
