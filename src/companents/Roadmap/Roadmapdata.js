@@ -2,12 +2,18 @@ let Roadmapdata = [
     {
       id: 1,
       title: "Phase 1",
-      description1:
-        "•	Investor mint.",
+        description1:
+        "⦁ Marketing push on Twitter.",
         description2:
-        "•	Presale.",
+        "⦁ Collaboration with well-established projects.",
         description3:
-        " •	Start marketing on all social media in a different way.", 
+        "⦁ Aquire NFTs and build the investors vault.",
+        description4:
+        "⦁ Aquire NFTs and build the MIRA community Vault.", 
+        description5:
+        "⦁ Whitelist through Twitter giveaways and Discord games.", 
+        description6:
+        "⦁ Building an organic community.",  
        
       date: "April 2022 - present",
       icon: "mark",
@@ -16,57 +22,63 @@ let Roadmapdata = [
       id: 2,
       title: "Phase 2",
       description1:
-        "•	Public Sale, but only if you committed to the community’s plan in managing the collection (floor price) and rules within the community.",
-        // description2:
-        // "يشير مصطلح web3 إلى نسخة جديدة من خدمات الإنترنت تعتمد على تقنية البلوكشين اللامركزية التي تستند إليها العملات الرقمية مثل بيتكوين وغيرها والأصول الرقمية الفريدة NFTs،", 
-      
+        "⦁ MIRA Society launches.",
+        description2:
+        "⦁ Whitelist mint on July 7.",
+        description3:
+        "⦁ Public mint on July 8.",
+        description4:
+        "⦁ Whitelist benefits with early mint day and lower price.",
+       
       date: "April 2022 - present",
-      icon: "nomark",
+      icon: "mark",
     },
     {
       id: 3,
       title: "Phase 3",
       description1:
-      "•	Establishing MIRA vault, which will use 50% of the volume traded on OpenSea to invest in other collections, and the remaining 50% will be used for marketing, developing and pay wages to the team (there will be 2D and 3D collections exclusively for holders).",
-      // description2:
-      // "يشير مصطلح web3 إلى نسخة جديدة من خدمات الإنترنت تعتمد على تقنية البلوكشين اللامركزية التي تستند إليها العملات الرقمية مثل بيتكوين وغيرها والأصول الرقمية الفريدة NFTs،", 
-     
+      "⦁ Expand MIRA to reach all platforms and will keep growing to as many languages as we can.",
+      description2:
+      "⦁ Build a strong relationship with other communities.",
+      description3:
+      "⦁ MIRA collection sellout.",
+      description4:
+      "⦁ Provide MIRA school with teachers to teach different languages.",
+      description5:
+      "⦁ Allow holders of MIRA NFT to get alpha for upcoming projects.",
+      
       date: "April 2022 - present",
       icon: "nomark",
     },
     {
       id: 4,
       title: "Phase 4",
-      description1:
-        "•	Create an art-based collection and it will be airdropped for MIRA community only.",
-        // description2:
-        // "يشير مصطلح web3 إلى نسخة جديدة من خدمات الإنترنت تعتمد على تقنية البلوكشين اللامركزية التي تستند إليها العملات الرقمية مثل بيتكوين وغيرها والأصول الرقمية الفريدة NFTs،", 
-
+        description1:
+        "⦁ Start on three free mint collections. Second collection will be exclusively free to only MIRA holders as well as partnering projects. Third collection with only be free for MIRA holders. Fourth collection TBA.",
+        description2:
+        "⦁ Enter the Metaverse.",
+        description3:
+        "⦁ Keep providing utilities in MIRA.",
       date: "April 2022 - present",
       icon: "nomark",
     },
-    {
-      id: 5,
-      title: "Phase 5",
-      description1:
-        "•	Entering the Metaverse in a unique way, and that was discussed with the OG investors. More info will be shared later with holders.",
-        // description2:
-        // "يشير مصطلح web3 إلى نسخة جديدة من خدمات الإنترنت تعتمد على تقنية البلوكشين اللامركزية التي تستند إليها العملات الرقمية مثل بيتكوين وغيرها والأصول الرقمية الفريدة NFTs،", 
-      
-      date: "2022 - 2023",
-      icon: "nomark",
-    },
-    {
-      id: 6,
-      title: "Phase 6",
-      description1:
-        "•	Continuous intense marketing during the whole journey and adding more utilities along the way.",
-        // description2:
-        // "يشير مصطلح web3 إلى نسخة جديدة من خدمات الإنترنت تعتمد على تقنية البلوكشين اللامركزية التي تستند إليها العملات الرقمية مثل بيتكوين وغيرها والأصول الرقمية الفريدة NFTs،", 
-       
-      date: "2023 - 2024",
-      icon: "nomark",
-    },
+    // {
+    //   id: 5,
+    //   title: "Phase 5",
+    //   description1:
+    //     "•	Entering the Metaverse in a unique way, and that was discussed with the OG investors. More info will be shared later with holders.",
+    //   date: "2022 - 2023",
+    //   icon: "nomark",
+    // },
+    // {
+    //   id: 6,
+    //   title: "Phase 6",
+    //   description1:
+    //     "•	Continuous intense marketing during the whole journey and adding more utilities along the way.",
+     
+    //   date: "2023 - 2024",
+    //   icon: "nomark",
+    // },
   ];
   
   export default Roadmapdata;

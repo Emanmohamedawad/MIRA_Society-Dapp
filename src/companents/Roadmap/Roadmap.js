@@ -47,6 +47,9 @@ import "react-vertical-timeline-component/style.min.css";
                 <p id="description">{element.description1}</p>
                 <p id="description">{element.description2}</p>
                 <p id="description">{element.description3}</p>
+                <p id="description">{element.description4}</p>
+                <p id="description">{element.description5}</p>
+                <p id="description">{element.description6}</p>
                 {/* {showButton && (
                   <a
                     className={`button ${
