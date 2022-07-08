@@ -53,6 +53,7 @@ let Roadmapdata = [
     {
       id: 4,
       title: "Phase 4",
+      
         description1:
         "⦁ Start on three free mint collections. Second collection will be exclusively free to only MIRA holders as well as partnering projects. Third collection with only be free for MIRA holders. Fourth collection TBA.",
         description2:
