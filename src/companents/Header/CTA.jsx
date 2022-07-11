@@ -53,7 +53,7 @@ const CTA= () => {
            <a href='/#' onClick={connectwallet} className='btn'>Connect Wallet</a> 
 
             
-<input type="number" name="amount" defaultValue="1" min="1" max="2" style={{height : '22px' , marginTop:"20px",color: '#D9534F',padding:'5px'}}/>
+<input type="number" name="amount" defaultValue="1" min="1" max="15" style={{height : '22px' , marginTop:"20px",color: '#D9534F',padding:'5px'}}/>
           <a href='/#'  onClick={mint}  className=' btn btn-primary'>Mint</a> 
         <p>Mint price: 0.05eth</p>
 
