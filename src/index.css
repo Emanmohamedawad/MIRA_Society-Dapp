@@ -116,6 +116,10 @@ a:hover {
   background: #D9534F;
   color: #fff;
 }
+/* .btn-primary:disabled{
+  background-color: gray;
+  color: #fff;
+} */
 .btn-primary:hover{
   background: #fff;
   color: #4C0027;
