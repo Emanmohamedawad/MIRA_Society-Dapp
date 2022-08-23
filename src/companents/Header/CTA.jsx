@@ -114,7 +114,7 @@ const CTA= () => {
             
 <input type="number" name="amount" defaultValue="1" min="1" max="15" style={{height : '22px' , marginTop:"20px",color: '#D9534F',padding:'5px'}}/>
           <a href='/#'  onClick={mint} id="minbtn" className=' btn btn-primary'>{statebtn}</a> 
-        <p>Mint price: 0.05eth</p>
+        <p>Mint price: 0.001eth</p>
 
       </div>
       <div className='cta'> 
