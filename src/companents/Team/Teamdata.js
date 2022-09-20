@@ -32,14 +32,14 @@ export const Data = [
 		instagram:'',
 		linktree: '',
 	},
-	{
-		title: 'Eman',
-		description: 'Website Developer',
-		image: './assets2/Eman.jpg',
-		twitter:'https://twitter.com/Eman2799M',
-		instagram:'https://www.instagram.com/emy.m27_99/',
-		linktree: 'https://www.linkedin.com/in/emanmohameda2799/',
-	},
+// 	{
+// 		title: 'Eman',
+// 		description: 'Website Developer',
+// 		image: './assets2/Eman.jpg',
+// 		twitter:'https://twitter.com/Eman2799M',
+// 		instagram:'https://www.instagram.com/emy.m27_99/',
+// 		linktree: 'https://www.linkedin.com/in/emanmohameda2799/',
+// 	},
 	{
 		title: 'Simon',
 		description: 'Blockchain Developer',
